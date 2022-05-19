@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MVT_LucasDepierro.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['D:/Backup/Desktop/Lucas/Estudio/Cursos/CoderHouse/Python/Proyectos/Repositorio_CoderHouse/MVT_LucasDepierro/MVT_LucasDepierro/MVT_LucasDepierro/plantillas/'],
+        'DIRS': [ Path('MVT_LucasDepierro/plantillas/') ], #'D:/Backup/Desktop/Lucas/Estudio/Cursos/CoderHouse/Python/Proyectos/Repositorio_CoderHouse/MVT_LucasDepierro/MVT_LucasDepierro/MVT_LucasDepierro/plantillas/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
